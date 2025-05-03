@@ -1,0 +1,84 @@
+.homepage {
+  text-align: center;
+  padding: 60px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  margin-top: -45px;
+}
+.main-content{
+  text-align: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.menu-icon div {
+  width: 20px;
+  height: 3px;
+  background: #4a90e2;
+  margin: 3px 0;
+  border-radius: 2px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  color: #2e3a59;
+  margin: 40px 0 20px;
+}
+
+.search-bar {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #d0e6f6;
+  border-radius: 80px;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  flex-grow: 1;
+  font-size: 18px;
+  outline: none;
+  color: #4a90e2;
+}
+
+.icon {
+  font-size: 24px;
+  color: #4a90e2;
+}
+
+.quick-links {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2e3a59;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.link-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+}
